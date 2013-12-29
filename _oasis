@@ -1,0 +1,21 @@
+OASISFormat: 0.3
+Name: inifiles
+Version: 0.1
+Synopsis: INI files parser and pretty printer
+Authors: Vincent Bernardoff <vb@luminar.eu.org>
+License: ISC
+Plugins: META (0.3), DevFiles (0.3)
+BuildTools: ocamlbuild
+
+Library ini
+  Path: lib
+  Modules: Ini
+  BuildDepends: re.pcre
+  CompiledObject: best
+
+Executable initrip
+  Path: test
+  MainIs: initrip.ml
+  BuildDepends: ini
+  CompiledObject: best
+  Install: false

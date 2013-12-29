@@ -1,0 +1,12 @@
+# OASIS_START
+# DO NOT EDIT (digest: b5892de2cf77bdcdb58a53d38a01d510)
+version = "0.1"
+description = "INI files parser and pretty printer"
+requires = "re.pcre"
+archive(byte) = "ini.cma"
+archive(byte, plugin) = "ini.cma"
+archive(native) = "ini.cmxa"
+archive(native, plugin) = "ini.cmxs"
+exists_if = "ini.cma"
+# OASIS_STOP
+
