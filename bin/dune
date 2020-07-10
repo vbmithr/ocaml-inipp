@@ -1,0 +1,5 @@
+(executable
+ (name initrip)
+ (public_name initrip)
+ (package ini)
+ (libraries ini))

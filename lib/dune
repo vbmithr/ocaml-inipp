@@ -1,0 +1,5 @@
+(library
+ (name ini)
+ (public_name ini)
+ (modules ini)
+ (libraries re.pcre))
